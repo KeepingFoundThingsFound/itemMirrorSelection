@@ -390,6 +390,7 @@ module.exports = function (grunt) {
             'clean:server',
             'concurrent:server',
             'autoprefixer',
+          'typescript',
             'connect:livereload',
             'open',
             'watch'
@@ -400,6 +401,7 @@ module.exports = function (grunt) {
         'clean:server',
         'concurrent:test',
         'autoprefixer',
+        'typescript',
         'connect:test',
         'mocha'
     ]);
@@ -409,6 +411,7 @@ module.exports = function (grunt) {
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
+        'typescript',
         'requirejs',
         'concat',
         'cssmin',

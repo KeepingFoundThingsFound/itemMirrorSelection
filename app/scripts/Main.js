@@ -1,3 +1,4 @@
+'use strict';
 require.config({
     paths: {
         jquery: '../bower_components/jquery/jquery',
@@ -46,9 +47,40 @@ require.config({
     }
 });
 
-require(['../App.js', 'jquery'], function (app, $) {
-    'use strict';
-    // use app here
-    console.log(app);
-    console.log('Running jQuery %s', $().jquery);
+require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirrorModule, ItemMirror, $) {
+    var dropboxClient = new Dropbox.Client({
+        key: "cslj0tse3k9pumc"
+    });
+    dropboxClient.authDriver(new Dropbox.AuthDriver.Redirect({
+        rememberUser: true
+    }));
+    dropboxClient.authenticate(function (error, client) {
+        if (error) {
+            throw error;
+        }
+
+        new ItemMirror({
+            groupingItemURI: "/test",
+            xooMLDriver: {
+                driverURI: "DropboxXooMLUtility",
+                dropboxClient: dropboxClient
+            },
+            itemDriver: {
+                driverURI: "DropboxItemUtility",
+                dropboxClient: dropboxClient
+            }
+        }, function (error, itemMirror) {
+            if (error) {
+                throw error;
+            }
+
+            picoModal({
+                content: "<div id='itemMirrorSelection'></div>",
+                width: "1000"
+            });
+
+            new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection");
+        });
+    });
 });
+//# sourceMappingURL=Main.js.map
