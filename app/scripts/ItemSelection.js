@@ -6,15 +6,21 @@ define(["require", "exports"], function(require, exports) {
             this.id = id;
             this.nav = $(document.getElementById(id));
             this.itemMirror.listAssociations(function (error, GUIDs) {
-                var navTemplate = "" + '<ul class="nav nav-list">' + '<li class="nav-header itemMirrorPath">List header</li>';
-                for (var i = 0; i < GUIDs.length; i += 1) {
-                    navTemplate += '<li><a href="#">' + GUIDs[i] + '</a></li>';
-                }
-                navTemplate += '</ul>';
-                _this.nav.append(navTemplate);
+                _this.list = $('<ul class="nav nav-list _itemMirrorSelectionList"></ul>');
+                _this.nav.append(_this.list);
+                _this.list.append('<li class="nav-header _itemMirrorSelectionPath"></li>');
+
                 _this.itemMirror.getGroupingItemURI(function (error, groupingItemURI) {
-                    _this.nav.find(".itemMirrorPath").text("Current Path: " + groupingItemURI);
+                    _this.nav.find("._itemMirrorSelectionPath").text("Current Path: " + groupingItemURI);
                 });
+
+                for (var i = 0; i < GUIDs.length; i += 1) {
+                    var GUID = GUIDs[i];
+
+                    _this.itemMirror.getAssociationDisplayText(GUID, function (error, displayName) {
+                        _this.list.append('<li><a href="#">' + displayName + '</a></li>');
+                    });
+                }
             });
         }
         return ItemSelection;

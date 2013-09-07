@@ -2,46 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9604ad47-db35-4290-941f-ef13942ebb1b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/typings/mock.d.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/Libraries/PicoModal.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/Configuration/MainConfiguration.js" afterPath="$PROJECT_DIR$/app/scripts/Main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.js.map" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.js" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.ts" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="itemMirrorSelection.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377648634277" ignored="false" />
+    <file path="/Dummy.txt" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378588164233" ignored="false" />
     <file path="/App.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377655426468" ignored="false" />
     <file path="/Require.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377650212710" ignored="false" />
-    <file path="/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377661287353" ignored="false" />
+    <file path="/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378436765246" ignored="false" />
     <file path="/MainConfiguration.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377650983474" ignored="false" />
     <file path="/Main.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377660945858" ignored="false" />
     <file path="$PROJECT_DIR$/app/bower_components/types/slickgrid/SlickGrid.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377655618430" ignored="false" />
     <file path="$PROJECT_DIR$/app/bower_components/types/d3/d3.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377655618430" ignored="false" />
     <file path="$PROJECT_DIR$/app/bower_components/types/ace/ace.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377655618430" ignored="false" />
     <file path="/PicoModal.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658564772" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/app.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658231360" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/app.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378434217373" ignored="false" />
     <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/seeds/seeds.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658017296" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/seeds/seeds.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658231360" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/controllers/main.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658231360" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/models/models.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658231359" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/views/main.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377657498561" ignored="false" />
-    <file path="/main.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377657493086" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/models/models.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377657842752" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/seeds/seeds.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437817216" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/controllers/main.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437817216" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/models/models.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437817216" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/views/main.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437569101" ignored="false" />
+    <file path="/main.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378436085134" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/models/models.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378439801766" ignored="false" />
     <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/noteu/jquery.simplemodal.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377657888653" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/css/style.css" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658231360" ignored="false" />
-    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/app.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658244778" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/css/style.css" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437817216" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/app.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176115551" ignored="false" />
     <file path="/Dropbox.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658336493" ignored="false" />
     <file path="/picoModal-1.0.0.min.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658786703" ignored="false" />
     <file path="/PicoModal.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658818133" ignored="false" />
     <file path="/mock.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658880781" ignored="false" />
     <file path="/Gruntfile.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377660367045" ignored="false" />
-    <file path="/ItemSelection.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377661763858" ignored="false" />
+    <file path="/ItemSelection.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378442821893" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/.bowerrc" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378173761540" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/controllers/main.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378175993748" ignored="false" />
+    <file path="/app.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176077402" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/extjs/ExtJS-4.2.0.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176179871" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378442704550" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/scripts/scripts.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678936" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/sencha_touch/SenchaTouch.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176179871" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/extjs/ExtJS.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176179871" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorWebClient/scripts/ItemDriver.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176844776" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorWebClient/scripts/FragmentDriver.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176858410" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorWebClient/scripts/XooMLDriver.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176873161" ignored="false" />
+    <file path="/models.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378439794551" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/mindmappers/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378435151004" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/stormnote/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378436771039" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/planz5/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378435049676" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/noteu/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378435186259" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/stormnote/main.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378436626605" ignored="false" />
+    <file path="/main.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378435654365" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/planz5/js/functions.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378435828944" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/apps/noteu/noteu.itemMirror.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437232607" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/sugar/sugar.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678936" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/angularjs/angular.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437222829" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/jqueryui/jqueryui.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437222829" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/webaudioapi/waa-nightly.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437222829" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/jquery/jquery.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678936" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/_infrastructure/tests/typescript/lib.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678937" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/zepto/zepto.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678937" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/components/types/node/node-0.8.8.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437222829" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/css/main.css" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678936" ignored="false" />
+    <file path="$PROJECT_DIR$/../itemMirrorShowcase/dist/404.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378437678936" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +130,7 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state line="82" column="51" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +138,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="21" selection-start="2695" selection-end="2700" vertical-scroll-proportion="-0.6">
+            <state line="83" column="21" selection-start="2695" selection-end="2700" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +147,7 @@
       <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="251" selection-end="251" vertical-scroll-proportion="-5.0">
+            <state line="8" column="63" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +174,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="-11.875">
+            <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +183,7 @@
       <file leaf-file-name="ItemSelection.ts" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="544" selection-end="544" vertical-scroll-proportion="0.32742155">
+            <state line="7" column="13" selection-start="144" selection-end="155" vertical-scroll-proportion="0.14324693">
               <folding />
             </state>
           </provider>
@@ -170,10 +192,8 @@
       <file leaf-file-name="ItemMirror.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="-11.4">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,21 +203,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1377661819000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
-                <marker date="1377661819000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
-                <marker date="1377661819000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
-                <marker date="1377661819000" expanded="true" signature="2310:2540" placeholder="{...}" />
-                <marker date="1377661819000" expanded="true" signature="2374:2407" placeholder="{...}" />
-                <marker date="1377661819000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
+                <marker date="1378441967000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
+                <marker date="1378441967000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
+                <marker date="1378441967000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
+                <marker date="1378441967000" expanded="true" signature="2310:2540" placeholder="{...}" />
+                <marker date="1378441967000" expanded="true" signature="2374:2407" placeholder="{...}" />
+                <marker date="1378441967000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js.map" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/Main.js.map">
+      <file leaf-file-name="ItemSelection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="25" column="73" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/Configuration/MainConfiguration.js" />
         <option value="$PROJECT_DIR$/app/scripts/MainConfiguration.js" />
         <option value="$PROJECT_DIR$/app/scripts/MainConfiguration.ts" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
@@ -236,6 +255,7 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/Main.ts" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/ItemSelection.js" />
         <option value="$PROJECT_DIR$/app/scripts/ItemSelection.ts" />
       </list>
     </option>
@@ -275,6 +295,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -382,7 +403,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +411,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../itemMirrorShowcase" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -519,33 +540,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964029" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964029" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -613,27 +634,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-19.375">
+        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-19.375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/types/requirejs/require.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="0" selection-start="6768" selection-end="6832" vertical-scroll-proportion="-23.52">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="309" column="0" selection-start="6768" selection-end="6832" vertical-scroll-proportion="-23.52" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="39" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/picoModal-1.0.0.min.js">
@@ -643,25 +670,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377661819000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
-            <marker date="1377661819000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
-            <marker date="1377661819000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
-            <marker date="1377661819000" expanded="true" signature="2310:2540" placeholder="{...}" />
-            <marker date="1377661819000" expanded="true" signature="2374:2407" placeholder="{...}" />
-            <marker date="1377661819000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/Main.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/typings/mock.d.ts">
@@ -673,30 +684,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="251" selection-end="251" vertical-scroll-proportion="-5.0">
+        <state line="8" column="63" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="21" selection-start="2695" selection-end="2700" vertical-scroll-proportion="-0.6">
+        <state line="83" column="21" selection-start="2695" selection-end="2700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="-11.4">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="-11.875">
+        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -704,15 +713,34 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="51" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1378441967000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
+            <marker date="1378441967000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
+            <marker date="1378441967000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
+            <marker date="1378441967000" expanded="true" signature="2310:2540" placeholder="{...}" />
+            <marker date="1378441967000" expanded="true" signature="2374:2407" placeholder="{...}" />
+            <marker date="1378441967000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="544" selection-end="544" vertical-scroll-proportion="0.32742155">
+        <state line="7" column="13" selection-start="144" selection-end="155" vertical-scroll-proportion="0.14324693">
           <folding />
         </state>
       </provider>
