@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9604ad47-db35-4290-941f-ef13942ebb1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.js.map" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.js" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/ItemSelection.ts" afterPath="$PROJECT_DIR$/app/scripts/ItemSelection.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="itemMirrorSelection.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378588164233" ignored="false" />
+    <file path="/Dummy.txt" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1380008575312" ignored="false" />
     <file path="/App.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377655426468" ignored="false" />
     <file path="/Require.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377650212710" ignored="false" />
     <file path="/index.html" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378436765246" ignored="false" />
@@ -35,7 +33,7 @@
     <file path="/PicoModal.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658818133" ignored="false" />
     <file path="/mock.d.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377658880781" ignored="false" />
     <file path="/Gruntfile.js" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1377660367045" ignored="false" />
-    <file path="/ItemSelection.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378442821893" ignored="false" />
+    <file path="/ItemSelection.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1380010521584" ignored="false" />
     <file path="$PROJECT_DIR$/../itemMirrorShowcase/.bowerrc" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378173761540" ignored="false" />
     <file path="$PROJECT_DIR$/../itemMirrorShowcase/app/scripts/controllers/main.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378175993748" ignored="false" />
     <file path="/app.ts" changelist="9604ad47-db35-4290-941f-ef13942ebb1b" time="1378176077402" ignored="false" />
@@ -80,6 +78,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -116,7 +115,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -171,20 +169,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="ItemSelection.ts" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+            <state line="43" column="31" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.83830273">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemSelection.ts" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.ts">
+      <file leaf-file-name="ItemMirror.dev.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="144" selection-end="155" vertical-scroll-proportion="0.14324693">
-              <folding />
+            <state line="3269" column="7" selection-start="110809" selection-end="110850" vertical-scroll-proportion="-21.48">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,14 +202,7 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/Main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1378441967000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
-                <marker date="1378441967000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
-                <marker date="1378441967000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
-                <marker date="1378441967000" expanded="true" signature="2310:2540" placeholder="{...}" />
-                <marker date="1378441967000" expanded="true" signature="2374:2407" placeholder="{...}" />
-                <marker date="1378441967000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,10 +255,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1436" />
-    <option name="height" value="878" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,8 +288,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +394,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,9 +403,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../itemMirrorShowcase" />
-    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -431,10 +424,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -443,7 +432,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -472,19 +471,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -539,8 +525,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -559,13 +545,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964029" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.67091835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -634,13 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="19224" selection-start="20293" selection-end="20305" vertical-scroll-proportion="0.0">
@@ -703,9 +682,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+        <state line="19" column="43" selection-start="928" selection-end="928" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
@@ -717,30 +710,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/Main.js">
+    <entry file="file://$PROJECT_DIR$/app/lib/ItemMirror.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
+        <state line="3269" column="7" selection-start="110809" selection-end="110850" vertical-scroll-proportion="-21.48">
           <folding>
-            <marker date="1378441967000" expanded="true" signature="1998:2335" placeholder="{&quot;groupingItemURI&quot;: &quot;/test&quot;...}" />
-            <marker date="1378441967000" expanded="true" signature="2065:2163" placeholder="{&quot;driverURI&quot;: &quot;DropboxXooMLUtility&quot;...}" />
-            <marker date="1378441967000" expanded="true" signature="2200:2297" placeholder="{&quot;driverURI&quot;: &quot;DropboxItemUtility&quot;...}" />
-            <marker date="1378441967000" expanded="true" signature="2310:2540" placeholder="{...}" />
-            <marker date="1378441967000" expanded="true" signature="2374:2407" placeholder="{...}" />
-            <marker date="1378441967000" expanded="true" signature="2636:2651" placeholder="{&quot;content&quot;: &quot;&lt;div id='itemMirrorSelection'&gt;&lt;/div&gt;&quot;...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="73" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/ItemSelection.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="144" selection-end="155" vertical-scroll-proportion="0.14324693">
+        <state line="43" column="31" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.83830273">
           <folding />
         </state>
       </provider>
