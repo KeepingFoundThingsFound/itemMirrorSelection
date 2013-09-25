@@ -51,7 +51,7 @@ require.config({
     }
 });
 
-require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirrorModule, ItemMirror, $) {
+require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirrorModule: any, ItemMirror, $) {
   var dropboxClient = new Dropbox.Client({
     key: "cslj0tse3k9pumc"
   });
