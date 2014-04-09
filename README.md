@@ -7,6 +7,7 @@ Setup
 * Install node.js
 * cd "working/dir/here"
 * npm install
+* grunt install
 
 Develop
 * grunt server
