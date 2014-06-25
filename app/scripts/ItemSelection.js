@@ -37,10 +37,23 @@ define(["require", "exports"], function(require, exports) {
             var listItemClick = function () {
                 self.listItemClick($(this));
             };
-
+            $('a#upOneLvl').remove();
             itemMirror.getGroupingItemURI(function (error, groupingItemURI) {
                 _this.listPath.text("Path: " + groupingItemURI);
             });
+
+            if (!$('a#upOneLvl').length) {
+                itemMirror.getParent(function (error, parent) {
+                    if (parent) {
+                        var upOne = $("<a href='#' id='upOneLvl'><span class='glyphicon glyphicon-arrow-left'></span> Up One Level</a>");
+                        upOne.click(function (event) {
+                            event.preventDefault();
+                            self.createListFromAssociations(parent);
+                        });
+                        _this.nav.prepend(upOne);
+                    }
+                });
+            }
 
             itemMirror.listAssociations(function (error, GUIDs) {
                 for (var i = 0; i < GUIDs.length; i += 1) {
@@ -52,11 +65,12 @@ define(["require", "exports"], function(require, exports) {
                         _this.list.append(listItem);
 
                         itemMirror.isAssociatedItemGrouping(GUID, function (error, isAssociatedItemGrouping) {
-                            if (isAssociatedItemGrouping) {
-                                listItem.click(listItemClick);
-                                var listItemText = listItem.text();
+                            if (!isAssociatedItemGrouping) {
                                 listItem.children().remove();
+                            } else {
+                                var listItemText = listItem.text();
                                 listItem.children().add($("<a href='#'>" + listItemText + "</a>"));
+                                listItem.click(listItemClick);
                             }
                         });
                     });

@@ -11,7 +11,8 @@ require.config({
         bootstrapScrollspy: '../bower_components/sass-bootstrap/js/scrollspy',
         bootstrapTab: '../bower_components/sass-bootstrap/js/tab',
         bootstrapTooltip: '../bower_components/sass-bootstrap/js/tooltip',
-        bootstrapTransition: '../bower_components/sass-bootstrap/js/transition'
+        bootstrapTransition: '../bower_components/sass-bootstrap/js/transition',
+        bootstrapModal: '../bower_components/sass-bootstrap/js/modal'
     },
     shim: {
         bootstrapAffix: {
@@ -43,11 +44,14 @@ require.config({
         },
         bootstrapTransition: {
             deps: ['jquery']
+        },
+        bootstrapModal: {
+            deps: ['jquery']
         }
     }
 });
 
-require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirrorModule, ItemMirror, $) {
+require(["scripts/ItemSelection.js", "ItemMirror", "jquery", "bootstrapModal"], function (ItemMirrorModule, ItemMirror, $) {
     var dropboxClient = new Dropbox.Client({
         key: "cslj0tse3k9pumc"
     });
@@ -60,7 +64,7 @@ require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirr
         }
 
         new ItemMirror({
-            groupingItemURI: "/test",
+            groupingItemURI: "/",
             xooMLDriver: {
                 driverURI: "DropboxXooMLUtility",
                 dropboxClient: dropboxClient
@@ -73,11 +77,11 @@ require(["scripts/ItemSelection.js", "ItemMirror", "jquery"], function (ItemMirr
             if (error) {
                 throw error;
             }
-
-            picoModal({
-                content: "<div id='itemMirrorSelection'></div>",
-                width: "1000"
-            });
+            var id = 'itemMirrorSelection';
+            var $modalContent = $('<div>', { 'id': id, class: 'modal-content' });
+            var $modalDialog = $('<div>', { class: 'modal-dialog modal-lg' }).append($modalContent);
+            var $modal = $('<div>').append($modalDialog);
+            $('body').append($modal);
 
             new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection");
         });
