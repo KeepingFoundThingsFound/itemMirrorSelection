@@ -80,7 +80,7 @@ require(["scripts/ItemSelection.js", "ItemMirror", "jquery", "bootstrapModal"], 
             var id = 'itemMirrorSelection';
             var $modalContent = $('<div>', { 'id': id, class: 'modal-content' });
             var $modalDialog = $('<div>', { class: 'modal-dialog modal-lg' }).append($modalContent);
-            var $modal = $('<div>').append($modalDialog);
+            var $modal = $('<div>', { id: 'selectionModal' }).append($modalDialog);
             $('body').append($modal);
 
             new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection");

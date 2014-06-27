@@ -8,6 +8,7 @@ export class ItemSelection {
   private listPath: JQuery;
   private previousGroupingItem: JQuery;
   private static itemMirrorGUID: string = "data-item-mirror-guid";
+  //public groupingItem: string;
 
   // TODO: type of itemMirror
   constructor(
@@ -26,16 +27,22 @@ export class ItemSelection {
     this.nav.append(this.listPath);
     this.nav.append(this.list);
     this.loadItemMirror();
+    //var returnVal = this.selectGroup();
+    //console.log(returnVal)
   }
 
   private loadItemMirror(GUID?: string): void {
     if (GUID) {
      this.itemMirror.createItemMirrorForAssociatedGroupingItem(GUID, (error, itemMirror) => {
-        this.createListFromAssociations(itemMirror);
+        return this.createListFromAssociations(itemMirror);
       })
     } else {
-      this.createListFromAssociations(this.itemMirror);
+      return this.createListFromAssociations(this.itemMirror);
     }
+  }
+
+  public selectGroup(): void{
+    return this.loadItemMirror();
   }
 
   private createListFromAssociations(itemMirror: any): void {
@@ -43,16 +50,23 @@ export class ItemSelection {
     var listItemClick = function () { self.listItemClick($(this)) };
     $('a#upOneLvl').remove();
     itemMirror.getGroupingItemURI((error, groupingItemURI) => {
-      this.listPath.text("Path: " + groupingItemURI);
+      this.listPath.text("Path: " + groupingItemURI + " ");
+      $('button#selectButton').remove();
+      var selectButton = $('<button>', {class: "btn btn-default", text: "Select this GroupingItem", id: "selectButton"}).click(function(groupingItemUri){
+        $('#selectionModal').remove();
+        //return groupingItemURI;
+      });
+      this.listPath.append(selectButton);
     });
       //Check for and Insert up one level button
       if(!$('a#upOneLvl').length){
         itemMirror.getParent((error, parent) => {
           if(parent){
           var upOne = $("<a href='#' id='upOneLvl'><span class='glyphicon glyphicon-arrow-left'></span> Up One Level</a>");
-          upOne.click(function(event){
-            event.preventDefault();
-            self.createListFromAssociations(parent)});
+            upOne.click(function(event){
+              event.preventDefault();
+              //return self.createListFromAssociations(parent)
+            });
             this.nav.prepend(upOne);
           }
         });
@@ -84,7 +98,7 @@ export class ItemSelection {
   private listItemClick(element: JQuery): void {
     var GUID = element.attr(ItemSelection.itemMirrorGUID);
     this.list.children().remove();
-    this.loadItemMirror(GUID);
+    return this.loadItemMirror(GUID);
   }
 
 }

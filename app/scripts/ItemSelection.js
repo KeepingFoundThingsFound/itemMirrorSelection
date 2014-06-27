@@ -24,11 +24,15 @@ define(["require", "exports"], function(require, exports) {
             var _this = this;
             if (GUID) {
                 this.itemMirror.createItemMirrorForAssociatedGroupingItem(GUID, function (error, itemMirror) {
-                    _this.createListFromAssociations(itemMirror);
+                    return _this.createListFromAssociations(itemMirror);
                 });
             } else {
-                this.createListFromAssociations(this.itemMirror);
+                return this.createListFromAssociations(this.itemMirror);
             }
+        };
+
+        ItemSelection.prototype.selectGroup = function () {
+            return this.loadItemMirror();
         };
 
         ItemSelection.prototype.createListFromAssociations = function (itemMirror) {
@@ -39,7 +43,12 @@ define(["require", "exports"], function(require, exports) {
             };
             $('a#upOneLvl').remove();
             itemMirror.getGroupingItemURI(function (error, groupingItemURI) {
-                _this.listPath.text("Path: " + groupingItemURI);
+                _this.listPath.text("Path: " + groupingItemURI + " ");
+                $('button#selectButton').remove();
+                var selectButton = $('<button>', { class: "btn btn-default", text: "Select this GroupingItem", id: "selectButton" }).click(function (groupingItemUri) {
+                    $('#selectionModal').remove();
+                });
+                _this.listPath.append(selectButton);
             });
 
             if (!$('a#upOneLvl').length) {
@@ -48,7 +57,6 @@ define(["require", "exports"], function(require, exports) {
                         var upOne = $("<a href='#' id='upOneLvl'><span class='glyphicon glyphicon-arrow-left'></span> Up One Level</a>");
                         upOne.click(function (event) {
                             event.preventDefault();
-                            self.createListFromAssociations(parent);
                         });
                         _this.nav.prepend(upOne);
                     }
@@ -81,7 +89,7 @@ define(["require", "exports"], function(require, exports) {
         ItemSelection.prototype.listItemClick = function (element) {
             var GUID = element.attr(ItemSelection.itemMirrorGUID);
             this.list.children().remove();
-            this.loadItemMirror(GUID);
+            return this.loadItemMirror(GUID);
         };
         ItemSelection.itemMirrorGUID = "data-item-mirror-guid";
         return ItemSelection;
