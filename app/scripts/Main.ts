@@ -90,7 +90,7 @@ require(["scripts/ItemSelection.js", "ItemMirror", "jquery", "bootstrapModal"], 
       //});
 
       //TODO: Typesafety
-      new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection");
+      new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection", "http://localhost:9000/");
     });
   });
 });

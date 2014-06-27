@@ -1,16 +1,19 @@
 define(["require", "exports"], function(require, exports) {
     var ItemSelection = (function () {
-        function ItemSelection(itemMirror, id, listClass, listPathClass, listItemClass, previousItemMirrorClass) {
+        function ItemSelection(itemMirror, id, URL, listClass, listPathClass, listItemClass, previousItemMirrorClass) {
             if (typeof listClass === "undefined") { listClass = "itemMirrorList"; }
             if (typeof listPathClass === "undefined") { listPathClass = "itemMirrorListPath"; }
             if (typeof listItemClass === "undefined") { listItemClass = "itemMirrorListItem"; }
             if (typeof previousItemMirrorClass === "undefined") { previousItemMirrorClass = "previousItemMirror"; }
             this.itemMirror = itemMirror;
             this.id = id;
+            this.URL = URL;
             this.listClass = listClass;
             this.listPathClass = listPathClass;
             this.listItemClass = listItemClass;
             this.previousItemMirrorClass = previousItemMirrorClass;
+            this.destURL = URL;
+
             this.nav = $("#" + id);
             this.previousGroupingItem = $("<button class='" + this.previousItemMirrorClass + "'></button>");
             this.listPath = $("<p class='nav-header " + this.listPathClass + "'></p>");
@@ -18,7 +21,8 @@ define(["require", "exports"], function(require, exports) {
 
             this.nav.append(this.listPath);
             this.nav.append(this.list);
-            this.loadItemMirror();
+
+            this.groupingItem = this.selectGroup();
         }
         ItemSelection.prototype.loadItemMirror = function (GUID) {
             var _this = this;
@@ -42,11 +46,14 @@ define(["require", "exports"], function(require, exports) {
                 self.listItemClick($(this));
             };
             $('a#upOneLvl').remove();
+            this.list.empty();
             itemMirror.getGroupingItemURI(function (error, groupingItemURI) {
                 _this.listPath.text("Path: " + groupingItemURI + " ");
                 $('button#selectButton').remove();
-                var selectButton = $('<button>', { class: "btn btn-default", text: "Select this GroupingItem", id: "selectButton" }).click(function (groupingItemUri) {
+                var selectButton = $('<button>', { class: "btn btn-default", text: "Select this GroupingItem", id: "selectButton" }).click(function (e) {
                     $('#selectionModal').remove();
+                    window.location.assign(_this.destURL + "#" + groupingItemURI);
+                    return groupingItemURI;
                 });
                 _this.listPath.append(selectButton);
             });
@@ -55,8 +62,9 @@ define(["require", "exports"], function(require, exports) {
                 itemMirror.getParent(function (error, parent) {
                     if (parent) {
                         var upOne = $("<a href='#' id='upOneLvl'><span class='glyphicon glyphicon-arrow-left'></span> Up One Level</a>");
-                        upOne.click(function (event) {
-                            event.preventDefault();
+                        upOne.click(function (e) {
+                            e.preventDefault();
+                            return self.createListFromAssociations(parent);
                         });
                         _this.nav.prepend(upOne);
                     }

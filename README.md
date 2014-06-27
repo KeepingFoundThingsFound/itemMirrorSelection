@@ -1,7 +1,9 @@
 itemMirrorSelection
 ===================
+Replace "http://localhost:9000/" in Main.ts with your App's URL
+Use the javascript function "/#(.*)/.exec(window.location.href)[1]" at;
 
-TODO: Finish "back", navigate directory up button. Document CSS Classes.
+TODO: Document CSS Classes.
 
 Setup
 * Install node.js

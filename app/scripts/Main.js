@@ -83,7 +83,7 @@ require(["scripts/ItemSelection.js", "ItemMirror", "jquery", "bootstrapModal"], 
             var $modal = $('<div>', { id: 'selectionModal' }).append($modalDialog);
             $('body').append($modal);
 
-            new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection");
+            new ItemMirrorModule.ItemSelection(itemMirror, "itemMirrorSelection", "http://localhost:9000/");
         });
     });
 });
